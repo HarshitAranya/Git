@@ -1,4 +1,10 @@
 📝 Git Commands <br>
+
+| Command | Example | Use case |
+|---------|---------|----------|
+| git init | Initialise an empty directory | to work from local repo |
+|---------|---------|----------|
+
 * git init
 * git config --global user.name "User Name"
 * git config --global user.email user.name@xyz.com
