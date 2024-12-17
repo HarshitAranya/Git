@@ -1,4 +1,4 @@
-📝 Git Commands
+📝 Git Commands <br>
 * git init
 * git config --global user.name "User Name"
 * git config --global user.email user.name@xyz.com
