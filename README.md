@@ -14,9 +14,6 @@
 * git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
 * git branch
 * git add *
-https://gemini.goole/
-https://github.com/HarshitAranya/Git/edit/myCodes/README.md
-
 * git commit -m "msg"
 * got commit -am "msg"
 * git rebase -i HEAD~3 OR git rebase -i base-branch
