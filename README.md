@@ -3,7 +3,7 @@ Git
 * git init
 * git config --global user.name "User Name"
 * git config --global user.email user.name@xyz.com
-The configuration is stored in your user profile (e.g., ~/.gitconfig on Linux/Mac or C:\Users\<username>\.gitconfig on Windows).
+  The configuration is stored in your user profile (e.g., ~/.gitconfig on Linux/Mac or C:\Users\<username>\.gitconfig on Windows).
 It applies to all repositories for the current user.
 * git config --global user.email user.name@xyz.com
 The configuration is specific to a single repository.
