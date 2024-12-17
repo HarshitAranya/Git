@@ -1,16 +1,27 @@
-Git
 📝 Git Commands
 * git init
 * git config --global user.name "User Name"
 * git config --global user.email user.name@xyz.com
-  The configuration is stored in your user profile (e.g., ~/.gitconfig on Linux/Mac or C:\Users\<username>\.gitconfig on Windows).
-It applies to all repositories for the current user.
-* git config --global user.email user.name@xyz.com
-The configuration is specific to a single repository.
+* git branch --set-upstream-to=origin/dev devlocal
+* git remote add origin https://<url>/your_repo_name
+* git config --global push.default current (current = in which branch you are working)
+* git push -u origin devlocal
+* git branch -m main (rename the current branch to main).
+  git branch -m old-branch new-branch
+* git checkout -b new
+* git switch -c new
+* git config --global diff.tool vscode
+* git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
 * git branch
 * git add *
 * git commit -m "msg"
 * got commit -am "msg"
+* git rebase -i HEAD~3 OR git rebase -i base-branch
+* git rebase --continue
+* git rebase --abort
+* git reset --hard <commitid>
+* git cherry-pick <commitid>
+* git revert <commitid>
 
 ✅ Some important commands 
 
