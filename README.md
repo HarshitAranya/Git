@@ -18,6 +18,7 @@
 * git switch -c new
 * git config --global diff.tool vscode
 * git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+* git config --global advice.addIgnoredFile false
 * git branch
 * git add *
 * git commit -m "msg"
